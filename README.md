@@ -43,6 +43,10 @@ I customized new render features in this project to fulfill my requirements.
 
 I used ScriptableObject in Unity to control a variety of conditions in the weather system, such as the precipitation, the temperature, the time, etc.
 
+I write shader codes to control the shifting between snowy shader and rainy shader based on the global temperature.
+
+Because the textures of my assets contains specular and metallic attributes, I modified the Unity PBR shader from using glossy attribute into specular attribute.
+
 
 
 ---
