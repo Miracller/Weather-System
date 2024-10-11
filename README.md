@@ -51,7 +51,7 @@ I write shader codes to control the shifting between snowy shader and rainy shad
 
 Because the textures of my assets contains specular and metallic attributes, I modified the Unity PBR shader from using glossy attribute into specular attribute.
 
-I also collaborated with my friends to write the cloud shaders.
+I also collaborated with my friends to write the cloud shaders. We used multiple perlin noises to construct the basic shape, then sampled and reprojected the value, finanlly using TemporalAA to denoise.
 
 ### Snowy and rainy effect
 
