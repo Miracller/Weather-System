@@ -39,16 +39,26 @@ Some images of the clouds.
 
 ## Explain of details
 
-I customized new render features in this project to fulfill my requirements.
+### Weather system 
+
+I customized new render features to define the sky rendering pass, the atmosphere pass, the cloud pass, the shodow pass.
 
 I used ScriptableObject in Unity to control a variety of conditions in the weather system, such as the precipitation, the temperature, the time, etc.
+
+### Shaders
 
 I write shader codes to control the shifting between snowy shader and rainy shader based on the global temperature.
 
 Because the textures of my assets contains specular and metallic attributes, I modified the Unity PBR shader from using glossy attribute into specular attribute.
 
+I also collaborated with my friends to write the cloud shaders.
 
+### Snowy and rainy effect
+
+I used VFX graph system in Unity to build the rain and snow, which is related to the particle system. 
+
+![rain_vfx](https://github.com/user-attachments/assets/94902df4-e5af-468e-a95c-9318200d9445)
+
+In this way, I can use the temperature in my weather system as a global variable to switch between rain and snow.
 
 ---
-
-## Additional Practices
